@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог</title>
+    <meta name="description" content="description">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="files/logo01.png" alt="Логотип" class="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a class="menu-link" href="./about.html">О нас</a></li>
+                <li><a class="menu-link" href="./courses.html">Курсы</a></li>
+                <li><a class="menu-link" href="./blog.html">Блог</a></li>
+                <li><a class="menu-link current" href="./contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="search-form">
+            <input type="text" name="query" placeholder="Поиск..." />
+            <button type="submit">Найти</button>
+        </div>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <!-- Контактная информация, форма обратной связи, ссылки на социальные сети -->
+            <p>Мы будем рады ответить на ваши вопросы и помочь вам. Свяжитесь с нами по указанным контактам или
+                воспользуйтесь формой обратной связи:</p>
+            <div class="contact-info">
+                <p><strong>Адрес:</strong> ул. Примерная, 123, г. Ваш Город, Страна</p>
+                <p><strong>Телефон:</strong> +7 123-456-789</p>
+                <p><strong>Электронная почта:</strong> info@example.com</p>
+            </div>
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваша электронная почта" required>
+                <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </section>
+        <a href="#" class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com" target="_blank" rel="nofollow" title="Facebook">
+            <img src="files/facebook-square-blue.svg" alt="Facebook" class="icon">
+        </a>
+        <a href="https://www.youtube.com/channel/" target="_blank" rel="nofollow" title="YouTube">
+            <img src="files/youtube-square-red.svg" alt="YouTube" class="icon">
+        </a>
+        <a href="https://t.me/" target="_blank" rel="nofollow" title="Telegram">
+            <img src="files/telegram.svg" alt="Telegram" class="icon">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="nofollow" title="Instagram">
+            <img src="files/insta.png" alt="Instagram" class="icon">
+        </a>
+        <a href="https://dzen.ru/oaz/" target="_blank" rel="nofollow" class="social-link" title="Дзен">
+            <img src="files/zen.png" alt="Дзен" class="icon">
+        </a>
+        <p class="copyright">© 2023 Дзен Оазис. Все права защищены.</p>
+    </footer>
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ee7b80eafc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
